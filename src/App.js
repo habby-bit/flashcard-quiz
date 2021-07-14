@@ -16,9 +16,6 @@ function App() {
       setCategories(res.data.trivia_categories)
     }, [])
   })
-  useEffect(() => {
-
-  }, [])
 
   const decodeString = (str) => {
     const textArea = document.createElement('textarea')
